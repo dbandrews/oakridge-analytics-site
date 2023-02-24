@@ -1,0 +1,545 @@
+[33mcommit 07407ea0b131e993322aca5d7d8db5709a535081[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: dustin.brown.andrews@gmail.com <dustin.brown.andrews@gmail.com>
+Date:   Thu Feb 23 22:07:43 2023 -0700
+
+    Update to Oakridge Analytics color
+
+[33mcommit 4de3e48fd42a9705437abbe5506cfe005a08c2b5[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Fri Oct 21 10:23:49 2022 +1000
+
+    Update README.md
+
+[33mcommit 54c11ab4c36d38a7c7ed658dbc5a87cb480de9e3[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Mon Jun 27 10:47:46 2022 +1000
+
+    Update README.md
+
+[33mcommit d46a0724dde14bc8868514f179ebd27d2afc440c[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Mon Jun 27 10:31:24 2022 +1000
+
+    updating sorting and limiting of services, improve service dummy content
+
+[33mcommit 0bfe07c5c489c00c665f058f835422c2641bc3eb[m
+Merge: 575d51d a295337
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Mon Jun 27 09:29:56 2022 +1000
+
+    Merge pull request #53 from sanujar/master
+    
+    Use weighted_services on home page
+
+[33mcommit a295337dc7de23de07a611b4e6b9a62e4b3a7e29[m
+Author: Sanuja Rajasinghe <39675122+sanujar@users.noreply.github.com>
+Date:   Tue Mar 29 14:53:44 2022 +0530
+
+    Use weighted_services on home page
+
+[33mcommit 575d51db523009f824aa932991b73465db596996[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Mon Jan 3 10:46:11 2022 +1000
+
+    Update README.md
+
+[33mcommit 8581d2257a0707acd346d48a4d345a8106d68123[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Mon Jan 3 10:45:00 2022 +1000
+
+    Update README.md
+
+[33mcommit 0c94e7c22797b5290c9eb0017579c72d253b95cf[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Wed Oct 6 12:14:21 2021 +1000
+
+    Update README.md
+
+[33mcommit 986d18016e690db79a966676cb17d5f5be353bba[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Wed Oct 6 12:09:23 2021 +1000
+
+     update to bootstrap v4.6
+
+[33mcommit 9c3310b85d5d42ec6d22a09d44b03cad9ba7e58a[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Wed Oct 6 12:02:31 2021 +1000
+
+    fix primary red color on links
+
+[33mcommit 0fe44fd51ec706d8404170f85d8d05f42ae9d05d[m
+Merge: 6c61d49 5c54466
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Tue Aug 10 13:13:28 2021 +1000
+
+    Merge pull request #44 from Balaiseee/master
+    
+    refactor: Improve performance, seo, accessibility and security
+
+[33mcommit 5c54466e138b6795f6479b5bae9ee2b08b03b80b[m
+Author: root <stanislas.lucinski@data.gouv.fr>
+Date:   Mon Aug 9 13:02:59 2021 +0200
+
+    refactor: Reduce complexity
+    
+    default.html: Use Google Fonts and load efficiently fonts with <link rel="preconnect" ...> and comment the self hosted way
+    teams.html: Set width and height directly in the HTML
+    _config.yml: Modify the style of sass to compressed
+    _team: Make consistent use of double quote and remove width and height attributes
+    style.scss: Comment import of fonts component
+
+[33mcommit 45518323f373a3c748acd560ee6e3a983c3bb9b2[m
+Author: root <stanislas.lucinski@data.gouv.fr>
+Date:   Sat Aug 7 14:45:43 2021 +0200
+
+    fix: Missing quotation marks
+    
+    home.html: Fix missing quotation marks in alt attribute in intro image
+
+[33mcommit 3b5119f8790c890a07ae84c9c291c6df0e1949b1[m
+Author: root <stanislas.lucinski@data.gouv.fr>
+Date:   Sat Aug 7 13:54:56 2021 +0200
+
+    style: Formatting
+    
+    Rename fonts.scss into _fonts.scss
+    Format style.scss
+
+[33mcommit e640db6d17f52ddc5fa67eb874a79d94a0b6e7bd[m
+Author: root <stanislas.lucinski@data.gouv.fr>
+Date:   Fri Aug 6 17:49:36 2021 +0200
+
+    refactor: Improve performance
+    
+    SEO improvement
+    - about.md: Add description label
+    - contact.md: Add description label
+    - services.md : Add description label
+    
+    Accessibility improvement
+    - footer.html: Replace <h3> by <h2>
+    - team.html: Increase contrast ratio
+    
+    Security improvement
+    - teams.html: Fix LinkedIn link
+    
+    Performance improvement
+    - teams.html: Set width and height for img
+    - ...
+    
+    For the whole site:
+    
+    100/100 Google Lighthouse speed score
+    100/100 Google Lighthouse seo score
+    100/100 Google Lighthouse accessibility score
+    100/100 Google Lighthouse best practices score
+
+[33mcommit d9528cf9a283066c32f1c9591565c881755354cf[m
+Author: root <stanislas.lucinski@data.gouv.fr>
+Date:   Fri Aug 6 16:09:07 2021 +0200
+
+    refactor: Improve performance
+    
+    Self host font
+    header.html: Set width and height for img
+    home.html: Set width and height for img
+    
+    home.html: Lighthouse 100/100 Mobile & Desktop
+
+[33mcommit 6c61d49e03384363fcd61d601ece74892d292c98[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Mon Jul 12 13:58:38 2021 +1000
+
+    update stackbit.yaml
+
+[33mcommit 7d6662356db96756d77cdcb4d65dc895f92d4c56[m
+Merge: c00f7a6 c4c46af
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Mon Jul 12 13:08:10 2021 +1000
+
+    Merge branch 'master' of github.com:zerostaticthemes/jekyll-serif-theme
+
+[33mcommit c00f7a6ecb19361139c5384b8aea339c6bbb3383[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Mon Jul 12 13:06:45 2021 +1000
+
+    update seo, update page layouts css, update stackbit.yaml
+
+[33mcommit c4c46afa4e0e388cf7d204da61e7d7a69d85d82a[m
+Merge: d49464c 4751f81
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Mon Jul 12 11:05:38 2021 +1000
+
+    Merge pull request #41 from PmE8HW0KRfqa/patch-1
+    
+    Update _type.scss
+
+[33mcommit 4751f81d28d9cf5cfe17dcfa15806244a7675c31[m
+Author: PmE8HW0KRfqa <PmE8HW0KRfqa@users.noreply.github.com>
+Date:   Sun Jun 13 21:24:40 2021 -0600
+
+    Update _type.scss
+    
+    The <h1> font size was not consistent with the rest. The text became larger when the screen became smaller.
+
+[33mcommit d49464c6a8a984e5fc87c48b1533a7a798d53195[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Tue Mar 9 16:53:32 2021 +1000
+
+    Update README.md
+
+[33mcommit 2271fdc3518bcd0a83b65440b8b86e12abc7ad55[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Tue Mar 9 16:50:31 2021 +1000
+
+    update readme
+
+[33mcommit 001afb9ee1498b18e6a1cad869bce2b817304e00[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Tue Mar 9 14:07:03 2021 +1000
+
+    ssgversion as string
+
+[33mcommit 07a7e41d1b23910a81af4c1aadeb79cb74649957[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Tue Mar 9 13:57:17 2021 +1000
+
+    update baseurl and license email
+
+[33mcommit 15e896e3e8923881d64181cefdae352950feaea8[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Tue Mar 9 13:53:24 2021 +1000
+
+    testing gh-pages baseurl
+
+[33mcommit d67f85a45647476c998351cac866df25a54d794d[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Tue Mar 9 13:45:36 2021 +1000
+
+    update base url got gh pages
+
+[33mcommit 83fad6a578ee8d6905015d6154d2c35281d9757b[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Tue Mar 9 12:41:59 2021 +1000
+
+    update to relative_url
+
+[33mcommit bdd76be34f662466b92ee8724ffb72ef4c5e7bad[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Tue Mar 9 12:04:14 2021 +1000
+
+    update stackbit.yaml
+
+[33mcommit 7b2ec44ad4efe97fc297527be71dc0b880b30ca3[m
+Merge: 1cc3eeb a903d82
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Tue Mar 9 11:41:41 2021 +1000
+
+    Merge pull request #33 from driftingrafttechnology/services-weight
+    
+    Added variable weighted_services so that services weight is used.
+
+[33mcommit 1cc3eebb07eedc01075c67c70c904fa32ce6b94e[m
+Merge: 098175a dcc40be
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Tue Mar 9 11:41:09 2021 +1000
+
+    Merge pull request #32 from dpshelio/fix-html
+    
+    extra quotes removed on html
+
+[33mcommit 098175aee7cd6e42612ca02bfc7ae63e8bce0f1b[m
+Merge: 289dd37 e59e5ea
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Tue Mar 9 11:40:40 2021 +1000
+
+    Merge pull request #30 from ofekih/patch-1
+    
+    Fix mailto typo
+
+[33mcommit 289dd37dc2dc88190d3c6b6a46151d70e0512249[m
+Merge: 28f1ac5 5693b2a
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Tue Mar 9 11:37:10 2021 +1000
+
+    Merge pull request #26 from smacz42/master
+    
+    Make team entries in overview page link to individual pages
+
+[33mcommit a903d825ea69a069dd51385bb6500ca7dd934c72[m
+Author: Jamie Harvey <jamie.harvey@unlv.edu>
+Date:   Tue Feb 23 22:36:26 2021 -0800
+
+    Added variable weighted_services so that services weight is used.
+
+[33mcommit dcc40be92ce2c2368c90ce06d85f16b8cb8571f5[m
+Author: David Pérez-Suárez <d.perez-suarez@ucl.ac.uk>
+Date:   Fri Feb 19 11:39:29 2021 +0000
+
+    extra quotes removed on html
+
+[33mcommit e59e5eab4ffdb7361fc9d260f47c8ad7d5f930db[m
+Author: Ofek Gila <ofek@theofekfoundation.org>
+Date:   Sun Jan 17 18:46:36 2021 -0800
+
+    Fix typo
+    
+    Mailto link doesn't work because of this typo. Cheers
+
+[33mcommit 5693b2a3b8221c02604c4a2993035121d07a4306[m
+Author: AndrewCz <andrew@andrewcz.com>
+Date:   Sun Nov 8 02:26:33 2020 -0500
+
+    Make team entries in overview page link to individual pages
+
+[33mcommit 28f1ac50c28b7a3bbdf038bfe63cd158cf678bed[m
+Merge: 1083a7b a0b5116
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Sun Nov 8 11:24:51 2020 +1000
+
+    Merge pull request #25 from andreif/patch-1
+    
+    Fix typo
+
+[33mcommit a0b5116591e95458a2737308694b5ca683e78619[m
+Author: Andrei Fokau <andrei.fokau@neutron.kth.se>
+Date:   Sun Nov 1 12:11:40 2020 +0100
+
+    Update features.json
+
+[33mcommit 1083a7b4e54d45652eae910cf25d3a7ad3b64b40[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Sat Oct 17 10:22:26 2020 +1000
+
+    remove config defaults
+
+[33mcommit 227f3cc643a1da06841f87d3ad5c557aaac92562[m
+Merge: 2902bfc 30df697
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Sat Oct 17 10:14:57 2020 +1000
+
+    Merge branch 'master' of github.com:zerostaticthemes/jekyll-serif-theme
+
+[33mcommit 2902bfc0baee9fe8fd71bd385808b5b178410a29[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Sat Oct 17 10:14:24 2020 +1000
+
+    update add stackbit
+
+[33mcommit 30df6978d9902b19ce7fa147c07d87d5f84efe11[m
+Merge: 5ce60dc 95220c0
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Fri Oct 16 13:56:54 2020 +1000
+
+    Merge pull request #21 from kalehmann/patch-20
+    
+    fix: Mobile menu with baseurl set
+
+[33mcommit 95220c05007ffbb7d4c225db2900f5ce58109381[m
+Author: Karsten Lehmann <mail@kalehmann.de>
+Date:   Sat Oct 3 12:30:51 2020 +0200
+
+    fix: Mobile menu with baseurl set
+
+[33mcommit 5ce60dc979b8b641e99bbbc22047f8c8cec051fa[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Sat Sep 5 15:46:55 2020 +1000
+
+    Update README.md
+
+[33mcommit e89e15ba6bc8de89c75494163574aff5a125b6e7[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Sat Sep 5 15:12:09 2020 +1000
+
+    update live demo link
+
+[33mcommit 13e11a7207164aca8483addd4af453ba68802a8f[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Wed Sep 2 21:55:35 2020 +1000
+
+    cleaning up images
+
+[33mcommit 4931b1a48aa0c228351c6f544bbc39290a276e53[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Thu Aug 27 17:02:44 2020 +1000
+
+    update logo svg colors
+
+[33mcommit 0e037342c5fa670b7cb7ba05a33583709392fd7f[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Thu Aug 27 16:30:09 2020 +1000
+
+    update readme
+
+[33mcommit 1c2c6708822f9c29784a9a5848105c67ee399f31[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Thu Aug 27 16:23:31 2020 +1000
+
+    update readme
+
+[33mcommit c717c47a405afab42977ad5daecc9fe55618ad23[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Thu Aug 27 15:41:54 2020 +1000
+
+    seo and accessibility checks
+
+[33mcommit ad9b753dc29e1dd7c40ea65ac41470c08e43009d[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Thu Aug 27 14:50:59 2020 +1000
+
+    test basurl for ghpages
+
+[33mcommit 68eb7cbe457657b7743d149d98d593ce7a67ae95[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Thu Aug 27 13:38:55 2020 +1000
+
+    testing gh pages
+
+[33mcommit c148dcf54f6a0305a66acc234790c3b47d48e7b2[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Wed Aug 26 21:17:37 2020 +1000
+
+    favicon
+
+[33mcommit c5a262b75f1644e03f405c77f7f38ddfa75486c6[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Wed Aug 26 21:04:15 2020 +1000
+
+    update teams
+
+[33mcommit f61720590a2a86b23f90b2657df235c3e8d43276[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Wed Aug 26 20:46:38 2020 +1000
+
+    update about page
+
+[33mcommit f2b1c08ff4b668a443f68a76f1b2d47a6be385ee[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Sun Aug 23 20:44:27 2020 +1000
+
+    clean up readme
+
+[33mcommit 570b0b4f5c6a336a5f5e6bd211f18176b2bea7ae[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Sun Aug 23 20:01:06 2020 +1000
+
+    refresh theme
+
+[33mcommit 078c9913a810ab98af0d9db3a9c1a3e4defea76b[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Sun Aug 23 13:57:25 2020 +1000
+
+    update to jekyll 4
+
+[33mcommit 239cf2dc38d80bf0f63e629041865bfc3459c6a2[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Fri Jan 17 17:33:55 2020 +1000
+
+    Update README.md
+
+[33mcommit 42199e7439d978ad6f258a793bdaa07e671ab322[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Fri Jan 17 17:33:39 2020 +1000
+
+    Update README.md
+
+[33mcommit 1f5a105791fe5d16134b794bc0cd0a1165bf4ebb[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Fri Jan 17 17:17:19 2020 +1000
+
+    Update README.md
+
+[33mcommit bb6c51ef900ff945f41f5a22e0ae86e5907675ff[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Fri Jan 17 15:43:39 2020 +1000
+
+    Update LICENSE
+
+[33mcommit 2ac512051cbb8c954d2654331d3ba1c8f44fbf66[m
+Merge: 593d6e5 757ff23
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Thu May 2 11:29:44 2019 +1000
+
+    Merge pull request #2 from viraat/patch-1
+    
+    Fix for showing Job title and LinkedIn URL in Team page
+
+[33mcommit 757ff239fb39da2a8045133eb1b43b3c99dec14c[m
+Author: Viraat Aryabumi Reddy <viraat94@gmail.com>
+Date:   Wed May 1 23:02:18 2019 +0530
+
+    Fix for showing Job title and LinkedIn URL
+    
+    Small fix for ensuring the job title and linkedin url show up from the markdown files.
+
+[33mcommit 593d6e5fba9330142e47dd75a339a9d6f88d4878[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Wed Mar 13 17:46:17 2019 +1000
+
+    update ga
+
+[33mcommit 4f35c2e653c22d98c04421c71d3e47c57abb8254[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Mon Feb 18 11:05:43 2019 +1000
+
+    confirm working netlify env variables
+
+[33mcommit 42e991e54ce1833b7d804c6b92ff9e74305fb9c4[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Mon Feb 18 11:02:34 2019 +1000
+
+    testing netlify env vars 2
+
+[33mcommit 89db13895ae426599b60c8c91fbbd4a23ff0d366[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Mon Feb 18 10:54:43 2019 +1000
+
+    testing netlify env vars
+
+[33mcommit 15458d13aa674a3f067778385108c22bac41b985[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Mon Feb 18 10:38:00 2019 +1000
+
+    adding netlify env variables for google analytics
+
+[33mcommit 1cf0eaa8ed34a87940f30a340821358c681cfacc[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Mon Dec 10 10:18:14 2018 +1000
+
+    readme and screenshots
+
+[33mcommit f0b83ecee1c3601de4378d1881ddc3d61683a7fa[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Sun Dec 9 21:05:22 2018 +1000
+
+    update logo
+
+[33mcommit 102c3611e01ae586e36b5b2e5b973822c53c43a8[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Sun Dec 9 20:56:24 2018 +1000
+
+    fix google analytics if else condition
+
+[33mcommit f648f84244b6e8ad74e44bece07b58f8d3834a79[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Sun Dec 9 20:49:38 2018 +1000
+
+    update page titles
+
+[33mcommit 3bcb3574499a13e645e8c3715db4d9c234d6ec7e[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Sun Dec 9 19:58:43 2018 +1000
+
+    add Gemfile for Netlify deploy
+
+[33mcommit 8c551744716102c1efad45db5e9e2b73714e8098[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Sun Dec 9 19:48:38 2018 +1000
+
+    team is now a collection, add site config for google analytics
+
+[33mcommit f9119abcb3a2d2435b5bd9970d299e9dd69fdf27[m
+Author: Robert Austin <rob@jugglerdigital.com>
+Date:   Sun Dec 9 17:21:01 2018 +1000
+
+    first commit

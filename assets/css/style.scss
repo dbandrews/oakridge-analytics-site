@@ -1,9 +1,6 @@
----
----
-
-// Colors
+--- --- // Colors
 $primary: #e5261f;
-$primary-dark: #a01b16;
+$primary-dark: #111C22;
 $secondary: #f88379;
 $black: #2f2f41;
 $white: #ffffff;
@@ -65,6 +62,7 @@ body {
   font-size: 16px;
   line-height: 1.2;
   font-family: $font-family-base;
+
   @include media-breakpoint-up(md) {
     font-size: 16px;
     line-height: 1.3;
